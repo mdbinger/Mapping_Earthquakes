@@ -7,7 +7,7 @@ let map = L.map('mapid').setView([40.7, -94.5], 4);
 //  Add a marker to the map for Los Angeles, California.
 L.circleMarker([34.0522, -118.2437], {
     radius: 300,
-    color: 'black',
+    color: 'blue',
     fillColor: '#ffffa1'
  }).addTo(map);
 
